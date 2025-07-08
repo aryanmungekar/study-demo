@@ -13,4 +13,12 @@ title: Home
   <a class="branch-btn" href="{{ site.baseurl }}/computer-science/">💻 Computer Science</a>
   <a class="branch-btn" href="{{ site.baseurl }}/it/">💽 Information Technology</a>
   <a class="branch-btn" href="{{ site.baseurl }}/aids/">🤖 AI & Data Science</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/first-year/">🧠 First Year</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/computer-science/">💻 Computer Science</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/it/">💽 Information Technology</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/aids/">🤖 AI & Data Science</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/first-year/">🧠 First Year</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/computer-science/">💻 Computer Science</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/it/">💽 Information Technology</a>
+  <a class="branch-btn" href="{{ site.baseurl }}/aids/">🤖 AI & Data Science</a>
 </div>
