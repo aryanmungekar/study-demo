@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="slider-container">
-  <img class="slider-image" id="slider" src="{{ site.baseurl }}/assets/images/slider/image1.jpg" alt="Slide 1">
+  <img class="slider-image" id="slider" src="{{ site.baseurl }}/assets/images/slider/slider1.jpg" alt="Slide 1">
 </div>
 
 <div class="branch-grid">
