@@ -7,33 +7,26 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
-  <div class="wrapper">
 
-    {% include header.html %}
+  <!-- Fixed Header -->
+  <header>
+    <h1>📘 Engineering Notes</h1>
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/first-year/">First Year</a>
+      <a href="{{ site.baseurl }}/aids/">AI & DS</a>
+    </nav>
+  </header>
 
-    <main class="content">
-      {{ content }}
-    </main>
-
-    {% include footer.html %}
-
+  <!-- Scrollable content area -->
+  <div class="main-content">
+    {{ content }}
   </div>
 
-
-<script>
-const images = [
-  "{{ site.baseurl }}/assets/images/slider1.jpg",
-  "{{ site.baseurl }}/assets/images/slider2.jpg",
-  "{{ site.baseurl }}/assets/images/slider3.jpg"
-];
-
-let i = 0;
-setInterval(() => {
-  const slider = document.getElementById('slider');
-  i = (i + 1) % images.length;
-  slider.src = images[i];
-}, 3000);
-</script>
+  <!-- Fixed Footer -->
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} Aryan Notes Site</p>
+  </footer>
 
 </body>
 </html>
