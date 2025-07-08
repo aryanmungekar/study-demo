@@ -18,5 +18,22 @@
     {% include footer.html %}
 
   </div>
+
+
+<script>
+const images = [
+  "{{ site.baseurl }}/assets/images/slider1.jpg",
+  "{{ site.baseurl }}/assets/images/slider2.jpg",
+  "{{ site.baseurl }}/assets/images/slider3.jpg"
+];
+
+let i = 0;
+setInterval(() => {
+  const slider = document.getElementById('slider');
+  i = (i + 1) % images.length;
+  slider.src = images[i];
+}, 3000);
+</script>
+
 </body>
 </html>
