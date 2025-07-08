@@ -82,3 +82,34 @@ nav a {
 .branch-btn:hover {
   background-color: #0056b3;
 }
+/* ====== 404 Page Styles ====== */
+.error-page {
+  text-align: center;
+  padding: 80px 20px;
+  color: #444;
+}
+
+.error-page h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.error-page p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.error-page .back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.error-page .back-btn:hover {
+  background: #0056b3;
+}
+
