@@ -7,6 +7,7 @@ title: Home
   <img class="slider-image" id="slider" src="{{ site.baseurl }}/assets/images/slider/slider1.jpg" alt="Slide 1">
 </div>
 
+<h2>Pattern 2019</h2>
 <div class="branch-grid">
   <a class="branch-btn" href="{{ site.baseurl }}/first-year/">🧠 First Year</a>
   <a class="branch-btn" href="{{ site.baseurl }}/computer-science/">💻 Computer Science</a>
