@@ -1,6 +1,6 @@
 
 title: Engineering Notes Site
-baseurl: ""
+baseurl: "/study-demo"
 markdown: kramdown
 theme: minima
 plugins:
